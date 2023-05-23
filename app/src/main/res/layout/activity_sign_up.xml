@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".SignUpActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="E-mail"
+        android:layout_margin="16dp"
+        android:id="@+id/email_et"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Username"
+        android:layout_margin="16dp"
+        android:id="@+id/username_et"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Password"
+        android:password="true"
+        android:layout_margin="16dp"
+        android:id="@+id/password_et"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:text="Sign up"
+        android:layout_margin="16dp"
+        android:id="@+id/sign_up_btn"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:text="Already have account"
+        android:layout_margin="16dp"
+        android:id="@+id/to_in_btn"/>
+
+</LinearLayout>

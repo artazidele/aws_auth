@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AccountActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Password"
+        android:password="true"
+        android:layout_margin="16dp"
+        android:id="@+id/password_et"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="New password"
+        android:password="true"
+        android:layout_margin="16dp"
+        android:id="@+id/new_password_et"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:text="Change password"
+        android:layout_margin="16dp"
+        android:id="@+id/change_btn"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:text="Delete account"
+        android:layout_margin="16dp"
+        android:id="@+id/delete_btn"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:layout_gravity="center"
+        android:text="Sign out"
+        android:id="@+id/sign_out_btn"/>
+
+</LinearLayout>
